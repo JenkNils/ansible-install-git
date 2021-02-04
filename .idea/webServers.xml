@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="2533cd72-cb9c-4167-b605-282da34fef78" name="vm">
+        <fileTransfer accessType="SFTP" host="137.74.85.194" port="22" sshConfigId="ecfaf8dc-37da-436c-9280-ecd2ca66d7ea" sshConfig="ubuntu@137.74.85.194:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="7923b8e4-711c-40d3-8f9d-b9986843fdf7" name="Centos">
+        <fileTransfer accessType="SFTP" host="51.255.211.149" port="22" sshConfigId="a49a9cb7-0d38-442b-8fec-8c1413bff8ed" sshConfig="centos@51.255.211.149:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
